@@ -40,13 +40,20 @@
     border-radius: 0.4rem;
     color: white;
   }
-
-  .section-input, .section-temperature{
+  
+  .section-temperature{
     display: flex;
     align-items: center;
     justify-content: space-between;
     background-color: var(--section-overlay);
+    margin-top: 3rem;
   }
+  .section-input{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: var(--section-overlay);
+    }
 
   .section-input>input {
     border: 0.8px solid white;
@@ -88,6 +95,7 @@
       text-transform: capitalize;
     }
 
+  
     .temperature>h1 {
       font-size: 60px;
     }

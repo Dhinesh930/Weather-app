@@ -62,11 +62,7 @@ if (data.temp <= threshold) {
           <div className="section-temperature">
             <div className="icon">
             <h3>{`${weather.name}, ${weather.country}`}</h3>
-              <img
-                src="valid-image-source-url-or-local-path"
-                alt="weather icon"
-              />
-              <h3>{weather.description}</h3>
+                           <h3>{weather.description}</h3>
             </div>
             <div className="temperature">
             <h1>{`${weather.temp.toFixed()} °${units === 'metric' ? 'C' : 'F'}`}</h1>
